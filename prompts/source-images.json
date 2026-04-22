@@ -1,0 +1,34 @@
+{
+  "sources": [
+    {
+      "filename": "portrait-base.jpg",
+      "prompt": "Professional-quality portrait photograph of a 30-year-old woman with shoulder-length warm brown hair, facing the camera directly with a calm, friendly, neutral expression. She is wearing a plain light-blue cotton t-shirt. Background: a clean, evenly-lit solid medium-gray studio seamless. Soft natural-looking lighting from the front-left, gentle fill on the right side of her face. Sharp focus on the eyes, shallow depth of field. High resolution, realistic skin texture with visible pores and subtle natural imperfections. Square composition, head and shoulders framing, subject centered.",
+      "notes": "Base portrait for style-transfer (x3), character-consistency (x3), object-edit change-shirt-color."
+    },
+    {
+      "filename": "cafe-scene.jpg",
+      "prompt": "Candid photograph of a 28-year-old man sitting at a small round marble-top café table in a bright Parisian-style cafe during late afternoon. The table surface is completely empty — no cup, no plate, no phone, no items at all. He is looking off to the side in casual thought, one hand resting lightly near the edge of the table, the other in his lap. Warm afternoon light streams through a large window behind him. Soft bokeh on the background with empty café chairs and tables blurred out. Shot on a 50mm lens at f/2.8. Natural, candid, unposed. The empty table surface is unambiguously the focal plane.",
+      "notes": "Used by object-edit/add-coffee-cup — the empty table is the key ingredient."
+    },
+    {
+      "filename": "street-scene.jpg",
+      "prompt": "Documentary-style photograph of a quiet residential street in a European city on an overcast afternoon. A single red sedan is parked along the curb on the right side of the frame, clearly visible and sharply rendered — unmistakably the most prominent background element. The street has stone-fronted buildings with small wrought-iron balconies, narrow sidewalks with cobblestone detail, and gentle perspective lines receding toward the distance. No people in frame. Natural diffuse lighting, no harsh shadows. Shot wide-angle at eye level, realistic documentary style.",
+      "notes": "Used by object-edit/remove-background-object — the red sedan is the target of removal."
+    },
+    {
+      "filename": "product-iphone-shot.jpg",
+      "prompt": "Amateur smartphone snapshot of a small ceramic mug holding a tiny potted succulent plant, sitting on a cluttered wooden desk. Mixed lighting: warm tungsten from an unseen desk lamp on one side, cooler daylight from an off-screen window on the other — the color temperature is visibly uneven across the frame. Slightly tilted, hand-held framing. Minor sensor noise in the shadows. Clutter in the background: a notebook, a pen, loose papers, a coffee-ring stain — but the mug is clearly the subject. Unmistakably a casual iPhone photo, not a studio product shot.",
+      "notes": "Used by photo-enhance/iphone-to-studio — imperfections are the point."
+    },
+    {
+      "filename": "dim-room.jpg",
+      "prompt": "Low-light interior photograph of a living room at night with only a single small table lamp illuminating one corner. The rest of the room falls into deep shadow — a gray sofa, a low wooden coffee table, and a bookshelf are barely legible in the darkness. Heavy ISO noise throughout, slight motion blur. Strong warm tungsten color cast dominating the lit area, cool dark shadow falloff elsewhere. Taken handheld at approximately ISO 6400 and underexposed. Grainy, atmospheric, unmistakably a low-light shot.",
+      "notes": "Used by photo-enhance/low-light-to-professional — grain and darkness are the starting condition."
+    },
+    {
+      "filename": "casual-snapshot.jpg",
+      "prompt": "Candid casual selfie of a 25-year-old man standing in his apartment. Taken at arm's length with a smartphone front camera — the slight wide-angle lens distortion and over-the-shoulder framing are obvious. He is smiling easily, wearing a slightly wrinkled gray pullover hoodie, his hair a little messy. Soft natural window light from one side. A cluttered bookshelf and a potted plant are visible behind him — clearly a real home environment, not a studio. Casual phone-photo aesthetic. Not flattering in a studio sense; flattering in a candid-life sense.",
+      "notes": "Used by photo-enhance/casual-to-linkedin — starting condition is a real at-home selfie."
+    }
+  ]
+}

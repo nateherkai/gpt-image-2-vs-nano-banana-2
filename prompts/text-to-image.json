@@ -1,0 +1,113 @@
+{
+  "$schema": "./schema.json",
+  "matchups": [
+    {
+      "id": "text-typography__01-vintage-poster",
+      "category": "text-typography",
+      "prompt": "Vintage 1960s movie poster for a film called 'NEON SHADOWS'. Bold sans-serif title in glowing red, tagline 'The Future Is Already Here' in smaller white type below, intricate gold border with art-deco corners, weathered paper texture, photorealistic. Title must be perfectly legible.",
+      "notes": "Tests dense, layered typography with a brand-style logotype."
+    },
+    {
+      "id": "text-typography__02-infographic-chart",
+      "category": "text-typography",
+      "prompt": "A clean modern infographic titled 'AI Image Model Comparison 2026' with four labeled columns: Speed, Text Accuracy, Photorealism, Price. Each column shows a percentage and a small icon. Sans-serif typography, professional layout, white background, soft drop shadows. Every word must be spelled correctly and clearly readable.",
+      "notes": "Tests multi-element layout with structured text + numbers."
+    },
+    {
+      "id": "text-typography__03-packaging-label",
+      "category": "text-typography",
+      "prompt": "Premium product label for a coffee bag reading 'Ethiopian Yirgacheffe' in elegant serif, 'Single Origin · Light Roast' below in smaller caps, '12 oz / 340g' in the bottom corner. Cream paper texture, matte black ink, subtle gold accent line. Studio product photo angle. Text precision matters.",
+      "notes": "Tests label-grade typography on a real product surface."
+    },
+    {
+      "id": "portraits__01-parisian-cafe",
+      "category": "portraits",
+      "prompt": "Candid photo of a 35-year-old woman with light freckles and a subtle smile sitting at a small Parisian café table in the late afternoon. Natural skin texture, visible pores, slight cold-weather redness on her cheeks. Shot on iPhone 15 Pro, shallow depth of field, warm window light. She is mid-conversation, looking slightly off camera.",
+      "notes": "Realism + candidness benchmark."
+    },
+    {
+      "id": "portraits__02-gym-mirror-selfie",
+      "category": "portraits",
+      "prompt": "Authentic gym mirror selfie of a 28-year-old man in a gray t-shirt and black shorts, holding his iPhone with one hand. Slightly fogged mirror, fluorescent gym lighting, casual posture. Visible water bottle and dumbbell rack in the background. Natural look — not a fitness model pose.",
+      "notes": "Common social-media format that AI models often over-polish."
+    },
+    {
+      "id": "portraits__03-professional-headshot",
+      "category": "portraits",
+      "prompt": "Professional corporate headshot of a 45-year-old Black woman in a charcoal blazer and white blouse, soft side light, neutral gray seamless backdrop. Confident close-mouthed smile, sharp focus on eyes, shallow depth of field. Studio quality. Natural skin with realistic pores and slight imperfections.",
+      "notes": "Classic LinkedIn headshot — tests skin realism without over-smoothing."
+    },
+    {
+      "id": "complex-scenes__01-tokyo-cherry-blossom",
+      "category": "complex-scenes",
+      "prompt": "Busy Tokyo street at night during cherry blossom season. Wet pavement reflecting accurate Japanese neon signs, falling sakura petals, a dense crowd of pedestrians with realistic faces and clothing, a small ramen shop with steam rising from the doorway, cinematic 35mm lens look, shallow depth of field on the foreground.",
+      "notes": "World knowledge + complex composition + crowd consistency."
+    },
+    {
+      "id": "complex-scenes__02-farmers-market",
+      "category": "complex-scenes",
+      "prompt": "Outdoor farmers market on a sunny Saturday morning. Long wooden stalls with crates of vegetables, hand-written chalkboard price signs, a vendor weighing tomatoes for an older customer, dappled light through canvas awnings. At least eight distinct people in frame, all with realistic faces and natural body language. Shot on a 35mm prime.",
+      "notes": "Multiple-subject scene with everyday detail and signage."
+    },
+    {
+      "id": "complex-scenes__03-cyberpunk-alley",
+      "category": "complex-scenes",
+      "prompt": "Hyper-detailed cyberpunk alley in heavy rain. Towering apartment blocks with hundreds of small lit windows, holographic advertisements in Japanese and English, a lone figure in a long coat walking away from the camera, cluttered air-conditioning units and tangled cables on the walls, puddles catching the neon light. Cinematic, atmospheric, painterly.",
+      "notes": "Rich detail + readable signage + atmosphere stack."
+    },
+    {
+      "id": "product__01-coffee-can-marble",
+      "category": "product",
+      "prompt": "Professional product photograph of a premium matte-black coffee can on a polished white marble countertop. Label reads 'BREW & CO. — Ethiopian Yirgacheffe — Single Origin'. Soft studio lighting from the upper left, condensation droplets on the can, shallow depth of field, slight reflection on the marble. Commercial e-commerce quality.",
+      "notes": "Studio lighting + brand label legibility + material rendering."
+    },
+    {
+      "id": "product__02-sneaker-concrete",
+      "category": "product",
+      "prompt": "Editorial product shot of a single white leather sneaker with neon-green laces, photographed against a raw concrete backdrop. Hard rim light from the right, soft fill from the left, the sneaker positioned at a three-quarter angle. The visible insole text reads 'AERO 01'. Shadow grounding the shoe. Sports magazine quality.",
+      "notes": "Hard shadows, material specularity, micro-text on insole."
+    },
+    {
+      "id": "product__03-watch-velvet",
+      "category": "product",
+      "prompt": "Luxury close-up of a stainless steel automatic watch lying on dark navy velvet. Sapphire crystal showing the white dial with Roman numerals and a date window at 3 reading '21'. Macro lens, sharp on the dial, soft falloff on the bracelet. Single warm key light from above. Catalog quality.",
+      "notes": "Reflective metal + small numeric text + textile texture together."
+    },
+    {
+      "id": "diagrams-ui__01-banking-app",
+      "category": "diagrams-ui",
+      "prompt": "Realistic mobile screenshot of a clean banking app dashboard. Top reads 'Good morning, Alex'. Below: a primary balance card showing 'Checking · $2,847.33' with a small line chart, a secondary card 'Savings · $14,200.00', and a list of four recent transactions with names, dates, and dollar amounts. Modern sans-serif type, soft shadows, light theme. All numbers and text must be perfectly legible.",
+      "notes": "UI + data + dense small text. GPT Image 2 expected to win."
+    },
+    {
+      "id": "diagrams-ui__02-physics-diagram",
+      "category": "diagrams-ui",
+      "prompt": "Clean labeled physics diagram of a simple pendulum at maximum displacement on a white background. Show the pivot point, the string of length L, the bob with mass m, the displacement angle θ, and labeled force vectors for gravity (mg) downward and tension (T) along the string. All labels in clean serif math type. Educational textbook quality.",
+      "notes": "Tests technical accuracy + math symbols + vector arrows."
+    },
+    {
+      "id": "diagrams-ui__03-saas-landing",
+      "category": "diagrams-ui",
+      "prompt": "Realistic SaaS landing page mockup. Hero section reads 'Ship faster with focus.' as the headline, with the subheadline 'The async-first project tracker built for small teams.' A green pill button labeled 'Start free trial' and a secondary text link 'Watch demo · 2 min'. Below, three feature cards titled 'Fast', 'Focused', 'Flexible' with one-line descriptions. Modern light theme, generous whitespace.",
+      "notes": "Multiple text blocks with hierarchy + button states."
+    },
+    {
+      "id": "artistic__01-pixel-art-landscape",
+      "category": "artistic",
+      "prompt": "16-bit pixel art landscape of a mountain valley at sunset. Two snow-capped peaks in the background, a winding river catching the orange light, a foreground meadow with small wildflowers and a single pine tree on the right. Limited 32-color palette, crisp pixel edges, no anti-aliasing. SNES-era JRPG aesthetic.",
+      "notes": "Style discipline — no smoothing, true pixel grid."
+    },
+    {
+      "id": "artistic__02-oil-painting-portrait",
+      "category": "artistic",
+      "prompt": "Oil painting portrait of an elderly fisherman in a yellow rain slicker, weathered face, soft background of a stormy harbor. Visible thick brushstrokes especially in the coat and sky, palette knife texture in the highlights. Rembrandt-style chiaroscuro lighting from the left. Museum quality.",
+      "notes": "Painterly texture without lapsing into photoreal."
+    },
+    {
+      "id": "artistic__03-ukiyo-e-woodblock",
+      "category": "artistic",
+      "prompt": "Traditional Japanese ukiyo-e woodblock print of Mount Fuji at dawn, viewed across a calm bay with a single fishing boat in the foreground and a flock of cranes flying right to left. Flat color planes, visible woodblock registration, off-white textured paper, classical signature seal in the lower right corner. Hokusai-influenced.",
+      "notes": "Cultural style fidelity + flat color discipline."
+    }
+  ]
+}

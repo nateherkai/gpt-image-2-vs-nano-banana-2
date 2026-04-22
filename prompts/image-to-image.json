@@ -1,0 +1,89 @@
+{
+  "$schema": "./schema.json",
+  "matchups": [
+    {
+      "id": "style-transfer__01-van-gogh",
+      "category": "style-transfer",
+      "prompt": "Reimagine this portrait photograph as a Vincent van Gogh oil painting. Swirling impasto brushstrokes, vivid blues and yellows, the subject's facial structure preserved exactly but rendered in van Gogh's signature post-impressionist style. Visible canvas texture.",
+      "sourceImages": ["portrait-base.jpg"],
+      "notes": "Style fidelity + identity preservation."
+    },
+    {
+      "id": "style-transfer__02-studio-ghibli",
+      "category": "style-transfer",
+      "prompt": "Convert this photo into a Studio Ghibli-style 2D animation cel. Soft watercolor backgrounds, hand-drawn line work on the subject, the warm pastel palette of a Miyazaki film, slight cel-shading on the cheeks and clothing. Keep the composition and facial features recognizable.",
+      "sourceImages": ["portrait-base.jpg"],
+      "notes": "Anime style transfer with identity preservation."
+    },
+    {
+      "id": "style-transfer__03-watercolor",
+      "category": "style-transfer",
+      "prompt": "Transform this photograph into a delicate watercolor painting. Soft wet-on-wet color bleeds, visible paper grain, restrained palette of dusty pinks, sage greens, and slate blues. Loose edges around the subject, focus on the face, fade the background to suggested washes.",
+      "sourceImages": ["portrait-base.jpg"],
+      "notes": "Soft media style with controlled looseness."
+    },
+    {
+      "id": "character-consistency__01-three-outfits",
+      "category": "character-consistency",
+      "prompt": "Generate a single image showing the exact same person from the source photo wearing three different outfits side by side: (1) a charcoal business suit, (2) a casual white tee with denim jacket, (3) athletic running gear. Identical face, hair, and proportions in all three. Same clean studio backdrop and lighting.",
+      "sourceImages": ["portrait-base.jpg"],
+      "notes": "The classic consistency test."
+    },
+    {
+      "id": "character-consistency__02-three-locations",
+      "category": "character-consistency",
+      "prompt": "Show the exact same person from the source photo in three different locations side by side: (1) on a rocky coastline at sunset, (2) in a snowy mountain pass, (3) on a busy city street at night. Same face and clothing across all three. Lighting matched to each environment.",
+      "sourceImages": ["portrait-base.jpg"],
+      "notes": "Identity holds while environment changes dramatically."
+    },
+    {
+      "id": "character-consistency__03-three-expressions",
+      "category": "character-consistency",
+      "prompt": "Show the exact same person from the source photo with three different emotional expressions side by side: (1) genuine laughter, (2) thoughtful concentration, (3) calm neutrality. Same lighting, same outfit, same camera angle. Only the expression and micro-muscle activation changes.",
+      "sourceImages": ["portrait-base.jpg"],
+      "notes": "Subtle facial dynamics test."
+    },
+    {
+      "id": "object-edit__01-add-coffee-cup",
+      "category": "object-edit",
+      "prompt": "Add a steaming ceramic coffee cup to the table in front of the person in this scene. The cup should sit naturally on the surface with proper perspective, cast a realistic shadow consistent with the existing lighting, and have visible steam rising from the top. Do not change anything else in the image.",
+      "sourceImages": ["cafe-scene.jpg"],
+      "notes": "Object insertion with correct lighting + shadow."
+    },
+    {
+      "id": "object-edit__02-remove-background-object",
+      "category": "object-edit",
+      "prompt": "Remove the parked car from the background of this street scene. Realistically reconstruct what would be behind it — pavement, sidewalk, building wall, etc. — so the edit is invisible. Preserve all other elements of the photo exactly.",
+      "sourceImages": ["street-scene.jpg"],
+      "notes": "Object removal + photorealistic infill."
+    },
+    {
+      "id": "object-edit__03-change-shirt-color",
+      "category": "object-edit",
+      "prompt": "Change the color of the person's shirt from its current color to a deep forest green. Preserve the fabric texture, all wrinkles and folds, and the natural shadowing. Do not alter the person's face, body, hair, or the background in any way.",
+      "sourceImages": ["portrait-base.jpg"],
+      "notes": "Targeted color edit with material preservation."
+    },
+    {
+      "id": "photo-enhance__01-iphone-to-studio",
+      "category": "photo-enhance",
+      "prompt": "Re-light this casual iPhone product photo as a professional studio shot. Replace the existing lighting with soft three-point studio lighting, a clean seamless white backdrop, and a subtle reflection on the surface beneath the product. Keep the product itself completely unchanged — same color, same labels, same shape, same orientation.",
+      "sourceImages": ["product-iphone-shot.jpg"],
+      "notes": "Photo upgrade without changing the subject."
+    },
+    {
+      "id": "photo-enhance__02-low-light-to-professional",
+      "category": "photo-enhance",
+      "prompt": "Take this dim, grainy low-light interior photo and re-render it as if shot with professional lighting and a full-frame camera. Reduce noise, recover shadow detail, balance the color temperature, and enhance the natural ambient look — but do not invent new objects or change the room layout.",
+      "sourceImages": ["dim-room.jpg"],
+      "notes": "Low-light recovery + denoising."
+    },
+    {
+      "id": "photo-enhance__03-casual-to-linkedin",
+      "category": "photo-enhance",
+      "prompt": "Turn this casual snapshot into a polished LinkedIn-style professional headshot. Replace the background with a clean neutral gray studio backdrop, improve the lighting on the subject's face, refine the composition to a portrait crop. The person's face, hair, and clothing must remain identical — only the framing, lighting, and background change.",
+      "sourceImages": ["casual-snapshot.jpg"],
+      "notes": "Real-world use case for content creators."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+.env
+.env.*
+!.env.example
+
+node_modules/
+dist/
+.cache/
+.vite/
+
+# Generated run outputs (students create their own via `npm run new-run`)
+runs/
+
+# Legacy outputs from the old generate.mjs flow
+assets/
+
+# Transient logs
+batch-log.txt
+
+# Machine-specific Claude Code permissions
+.claude/settings.local.json
+
+# Personal / uploaded images — keep the folders but not the contents
+references/*
+!references/README.md
+
+sources/*
+!sources/README.md
+
+.DS_Store
+Thumbs.db

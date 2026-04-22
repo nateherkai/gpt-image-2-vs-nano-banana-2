@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --color-ink-950: #050812;
+  --color-ink-900: #0a1020;
+  --color-ink-800: #0f172a;
+  --color-ink-700: #1e293b;
+  --color-ink-600: #334155;
+  --color-ink-500: #475569;
+  --color-ink-400: #64748b;
+  --color-ink-300: #94a3b8;
+  --color-ink-200: #cbd5e1;
+  --color-ink-100: #e2e8f0;
+
+  --color-gpt: #10a37f;
+  --color-nano: #4285f4;
+  --color-accent: #4a9eff;
+  --color-win: #fbbf24;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  background: var(--color-ink-950);
+  color: var(--color-ink-100);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Subtle background grid for the deck */
+.grid-bg {
+  background-color: var(--color-ink-950);
+  background-image:
+    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+  background-size: 64px 64px;
+  background-position: 0 0;
+}
+
+/* Vignette glow behind slides */
+.slide-glow::before {
+  content: "";
+  position: absolute;
+  inset: -20% -10%;
+  background: radial-gradient(
+    ellipse at 50% 30%,
+    rgba(74, 158, 255, 0.12),
+    transparent 60%
+  );
+  pointer-events: none;
+  z-index: 0;
+}

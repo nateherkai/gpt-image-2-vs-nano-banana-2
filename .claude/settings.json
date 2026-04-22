@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run credits)",
+      "Bash(npm run status)",
+      "Bash(npm run judge-status)",
+      "Bash(npm run new-run)",
+      "Bash(npm run generate-sources)",
+      "Bash(npm run upload-sources)",
+      "Bash(npm run generate)",
+      "Bash(npm run dashboard)",
+      "Bash(npm run typecheck)"
+    ]
+  }
+}

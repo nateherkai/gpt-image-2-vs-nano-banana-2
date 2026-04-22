@@ -1,0 +1,26 @@
+{
+  "name": "@gpt-vs-nano/scripts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "new-run": "tsx src/index.ts new-run",
+    "generate-sources": "tsx src/index.ts generate-sources",
+    "upload-sources": "tsx src/index.ts upload-sources",
+    "generate": "tsx src/index.ts generate",
+    "judge-status": "tsx src/index.ts judge-status",
+    "status": "tsx src/index.ts status",
+    "credits": "tsx src/index.ts credits",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "p-limit": "^6.1.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

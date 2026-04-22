@@ -1,0 +1,24 @@
+{
+  "name": "gpt-vs-nano",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Automated head-to-head comparison rig for GPT Image 2 vs Nano Banana 2, judged by Claude Opus 4.7. Includes a localhost slide-deck dashboard built for screen recording.",
+  "workspaces": [
+    "scripts",
+    "dashboard"
+  ],
+  "scripts": {
+    "new-run": "npm --workspace=scripts run new-run --",
+    "generate-sources": "npm --workspace=scripts run generate-sources --",
+    "upload-sources": "npm --workspace=scripts run upload-sources --",
+    "generate": "npm --workspace=scripts run generate --",
+    "judge-status": "npm --workspace=scripts run judge-status --",
+    "status": "npm --workspace=scripts run status --",
+    "credits": "npm --workspace=scripts run credits --",
+    "dashboard": "npm --workspace=dashboard run dev",
+    "typecheck": "npm --workspace=scripts run typecheck && npm --workspace=dashboard run typecheck"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
